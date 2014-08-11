@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Camera_read" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Camera_read" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="../opencv249_src/build/include/opencv" />
+					<Add directory="../opencv249_src/build/include/opencv2/core" />
+					<Add directory="../opencv249_src/build/include/opencv2/imgproc" />
+				</Compiler>
+				<Linker>
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_calib3d249.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_calib3d249d.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_contrib249.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_contrib249d.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_core249.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_core249d.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_features2d249.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_features2d249d.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_flann249.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_flann249d.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_gpu249.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_gpu249d.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_highgui249.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_highgui249d.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_imgproc249.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_imgproc249d.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_legacy249.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_legacy249d.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_ml249.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_ml249d.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_nonfree249.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_nonfree249d.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_objdetect249.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_objdetect249d.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_ocl249.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_ocl249d.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_photo249.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_photo249d.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_stitching249.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_stitching249d.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_superres249.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_superres249d.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_ts249.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_ts249d.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_video249.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_video249d.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_videostab249.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_videostab249d.lib" />
+					<Add directory="../opencv249_src/build/x86/vc10/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Camera_read" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="../opencv249_src/sources/include/opencv" />
+					<Add directory="../opencv249_src/sources/include/opencv2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_calib3d249.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_calib3d249d.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_contrib249.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_contrib249d.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_core249.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_core249d.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_features2d249.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_features2d249d.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_flann249.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_flann249d.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_gpu249.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_gpu249d.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_highgui249.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_highgui249d.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_imgproc249.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_imgproc249d.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_legacy249.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_legacy249d.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_ml249.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_ml249d.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_nonfree249.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_nonfree249d.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_objdetect249.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_objdetect249d.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_ocl249.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_ocl249d.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_photo249.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_photo249d.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_stitching249.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_stitching249d.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_superres249.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_superres249d.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_ts249.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_ts249d.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_video249.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_video249d.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_videostab249.lib" />
+					<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_videostab249d.lib" />
+					<Add directory="../opencv249_src/build/x86/vc10/lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="../opencv249_src/sources/include/opencv" />
+		</Compiler>
+		<Linker>
+			<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_calib3d249.lib" />
+			<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_calib3d249d.lib" />
+			<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_contrib249.lib" />
+			<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_contrib249d.lib" />
+			<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_core249.lib" />
+			<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_core249d.lib" />
+			<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_features2d249.lib" />
+			<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_features2d249d.lib" />
+			<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_flann249.lib" />
+			<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_flann249d.lib" />
+			<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_gpu249.lib" />
+			<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_gpu249d.lib" />
+			<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_highgui249.lib" />
+			<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_highgui249d.lib" />
+			<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_imgproc249.lib" />
+			<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_imgproc249d.lib" />
+			<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_legacy249.lib" />
+			<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_legacy249d.lib" />
+			<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_ml249.lib" />
+			<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_ml249d.lib" />
+			<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_nonfree249.lib" />
+			<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_nonfree249d.lib" />
+			<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_objdetect249.lib" />
+			<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_objdetect249d.lib" />
+			<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_ocl249.lib" />
+			<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_ocl249d.lib" />
+			<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_photo249.lib" />
+			<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_photo249d.lib" />
+			<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_stitching249.lib" />
+			<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_stitching249d.lib" />
+			<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_superres249.lib" />
+			<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_superres249d.lib" />
+			<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_ts249.lib" />
+			<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_ts249d.lib" />
+			<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_video249.lib" />
+			<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_video249d.lib" />
+			<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_videostab249.lib" />
+			<Add library="..\opencv249_src\build\x86\vc10\lib\opencv_videostab249d.lib" />
+			<Add directory="../opencv249_src/build/x86/vc10/lib" />
+		</Linker>
+		<Unit filename="../opencv249_src/build/include/opencv/cv.h">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../opencv249_src/build/include/opencv/cvaux.h">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../opencv249_src/build/include/opencv/cvwimage.h">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../opencv249_src/build/include/opencv/cxcore.h">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../opencv249_src/build/include/opencv/cxmisc.h">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../opencv249_src/build/include/opencv/highgui.h">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../opencv249_src/build/include/opencv/ml.h">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

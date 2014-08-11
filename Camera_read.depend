@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1407246067 source:c:\codeblocksworkspace\main.c
+	<stdio.h>
+	<stdlib.h>
+	<cv.h>
+	<highgui.h>
+
+1407235594 c:\opencv249_src\sources\include\opencv\cv.h
+	<core_c.h>
+	<imgproc_c.h>
+	"opencv2/core/internal.hpp"
+
+1407231813 c:\opencv249_src\build\include\opencv2\core\core_c.h
+	<types_c.h>
+
+1392700821 c:\opencv249_src\build\include\opencv2\core\types_c.h
+	<assert.h>
+	<stdlib.h>
+	<string.h>
+	<float.h>
+	<stdint.h>
+	<intrin.h>
+	<emmintrin.h>
+	<fastmath.h>
+	<math.h>
+	<ipl.h>
+	<ipl/ipl.h>
+	"tegra_round.hpp"
+	"emmintrin.h"
+
+1407236003 c:\opencv249_src\build\include\opencv2\imgproc\imgproc_c.h
+	<core_c.h>
+	"C:\opencv249_src\build\include\opencv2\imgproc\types_c.h"
+
+1407236187 c:\opencv249_src\build\include\opencv2\imgproc\types_c.h
+	"C:\opencv249_src\build\include\opencv2\core\core_c.h"
+
+1407239794 c:\opencv249_src\sources\include\opencv\highgui.h
+	<core_c.h>
+	<highgui_c.h>
+
+1407234947 c:\opencv249_src\build\include\opencv2\highgui\highgui_c.h
+	<core_c.h>
+
